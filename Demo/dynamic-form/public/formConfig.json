@@ -1,0 +1,162 @@
+{
+  "title": "Agent Form",
+  "component": "form",
+  "pageHeader": "Create an Agent",
+  "pageSubHeader": "Fill out the following details to complete the agent onboarding process",
+  "module": [
+    {
+      "name": "Profile",
+      "type": "section",
+      "fields": [
+        {
+          "type": "avatar",
+          "label": "avatar",
+          "name": "avatar",
+          "required": true
+        },
+        {
+          "type": "text",
+          "label": "Name",
+          "name": "name",
+          "value": "Test Agent",
+          "required": true
+        },
+        {
+          "type": "email",
+          "label": "Email",
+          "name": "email",
+          "value": "agent1@yubi.com",
+          "required": true
+        },
+        {
+          "type": "password",
+          "label": "Password",
+          "name": "password",
+          "value": "yubi@123",
+          "required": true
+        },
+
+        {
+          "type": "date",
+          "label": "DOB",
+          "name": "dob",
+          "value": "1987-01-02",
+          "required": true
+        },
+        {
+          "type": "radio",
+          "label": "Gender",
+          "name": "gender",
+          "required": true,
+          "options": [
+            { "label": "Male", "value": "male" },
+            { "label": "Female", "value": "female" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KYC Details",
+      "type": "kyclist",
+      "fields": [
+        {
+          "label": "PAN No",
+          "name": "panNo",
+          "required": true,
+          "doc_file_name": "kyc_pan",
+          "value": "XXXXX444Y"
+        },
+        {
+          "label": "Aadhaar No",
+          "name": "aadhaarNo",
+          "required": true,
+          "doc_file_name": "kyc_aadhaar",
+          "value": "XXXXX 4441"
+        },
+
+        {
+          "label": "Voter's ID No",
+          "name": "voterId",
+          "required": true,
+          "doc_file_name": "kyc_voter",
+          "value": "XXXX XXXX 1788"
+        },
+        {
+          "label": "Driving License No",
+          "name": "Driving License",
+          "required": false,
+          "doc_file_name": "kyc_dl",
+          "value": "XXXXX1788"
+        }
+      ]
+    },
+    {
+      "name": "Company Information",
+      "type": "section",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Employee ID",
+          "name": "employeeid",
+          "value": "XXXXX1788"
+        },
+        {
+          "type": "text",
+          "label": "Start Date",
+          "name": "startdate",
+          "value": "2023-02-23"
+        },
+        {
+          "type": "text",
+          "label": "End Date",
+          "name": "enddate",
+          "value": "2024-08-21"
+        },
+        {
+          "type": "text",
+          "label": "Department",
+          "name": "department",
+          "value": "Technology"
+        },
+        {
+          "type": "text",
+          "label": "Designation",
+          "name": "designation",
+          "value": "Field Agent"
+        }
+      ]
+    },
+    {
+      "name": "Onboarding Documents",
+      "type": "list",
+      "fields": [
+        {
+          "label": "Vendor Agreement for Collection Agent",
+          "required": "Yes",
+          "doc_file_name": "https://www.example.com/vendor_agreement.pdf"
+        },
+        {
+          "label": "Service Provider Agreement on Stamp Duty",
+          "required": "Yes",
+          "doc_file_name": "https://www.example.com/sp_agreement.pdf"
+        },
+        {
+          "label": "Annexure B-18 details filled",
+          "required": "Yes",
+          "doc_file_name": "-"
+        }
+      ]
+    },
+    {
+      "name": "Terms & Conditions",
+      "type": "section",
+      "fields": [
+        {
+          "type": "checkbox",
+          "label": "I agree to the terms and conditions",
+          "name": "terms"
+        }
+      ]
+    }
+  ]
+}

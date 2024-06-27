@@ -1,0 +1,322 @@
+{
+  "pageTitle": "Profile Page",
+  "layout": "vertical",
+  "component": [
+    {
+      "type": "section",
+      "title": "Contact Information",
+      "configure": [
+        {
+          "type": "text",
+          "properties": {
+            "label": "Name",
+            "value": "John Doe"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Date of Birth",
+            "value": "01/01/1990"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Gender",
+            "value": "Male"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Email",
+            "value": "test@agent.com"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Phone",
+            "value": "+1234567890"
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "KYC Information",
+      "configure": [
+        {
+          "type": "text",
+          "properties": {
+            "label": "Voter ID",
+            "value": "T668****"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Aadhar Number",
+            "value": "********4321"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "PAN Number",
+            "value": "*******4F"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Passport Number",
+            "value": "P123****"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Driving License",
+            "value": "DL123*******"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Address",
+            "value": "123 Main Street, City, State, Country"
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Education",
+      "configure": [
+        {
+          "type": "text",
+          "properties": {
+            "label": "Institution",
+            "value": "University of California, Berkeley"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Degree",
+            "value": "B.S. in Electrical Engineering and Computer Sciences"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Graduation Date",
+            "value": "May 2019"
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Experience",
+      "configure": [
+        {
+          "type": "text",
+          "properties": {
+            "label": "Company",
+            "value": "Google"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Position",
+            "value": "Software Engineer"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Start Date",
+            "value": "June 2019"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "End Date",
+            "value": "Present"
+          }
+        },
+        {
+          "type": "list",
+          "properties": {
+            "label": "Responsibilities",
+            "items": [
+              "Developing and maintaining software applications",
+              "Collaborating with cross-functional teams to deliver high-quality products",
+              "Participating in code reviews and providing feedback to team members"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Employment",
+      "configure": [
+        {
+          "type": "text",
+          "properties": {
+            "label": "Employee ID",
+            "value": "123456"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Start Date",
+            "value": "12-03-2019"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "End Date",
+            "value": "Present"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Department",
+            "value": "Engineering"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Designation",
+            "value": "Software Engineer"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Signature Verification",
+            "value": "Verified"
+          }
+        },
+        {
+          "type": "list",
+          "properties": {
+            "label": "Onboarding Documents",
+            "items": [
+              {
+                "title": "Vendor Agreement for Collection Agent",
+                "required": "Yes",
+                "doc_url": "https://www.example.com/vendor_agreement.pdf"
+              },
+              {
+                "title": "Service Provider Agreement on Stamp Duty",
+                "required": "Yes",
+                "doc_url": "https://www.example.com/sp_agreement.pdf"
+              },
+              {
+                "title": "Annexure B-18 details filled",
+                "required": "No",
+                "doc_url": "-"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Training",
+      "configure": [
+        {
+          "type": "text",
+          "properties": {
+            "label": "Name",
+            "value": "Debt Recovery Agent (DRA) certificate"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Organization",
+            "value": "Indian Institute of Banking and Finance (IIBF)"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Issue Date",
+            "value": "January 2018"
+          }
+        },
+        {
+          "type": "text",
+          "properties": {
+            "label": "Expiration Date",
+            "value": "January 2021"
+          }
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Documents",
+      "configure": [
+        {
+          "type": "list",
+          "properties": {
+            "label": "KYC Documents",
+            "items": [
+              {
+                "documentType": "KYC",
+                "documentName": "Photo ID",
+                "documentURL": "https://www.example.com/photo.jpg"
+              },
+              {
+                "documentType": "KYC",
+                "documentName": "Aadhar",
+                "documentURL": "https://www.example.com/aadhaar.pdf"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "properties": {
+            "label": "Education Documents",
+            "items": [
+              {
+                "documentType": "Education",
+                "documentName": "Graduation Certificate",
+                "documentURL": "https://www.example.com/hscMarksheet.pdf"
+              }
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "properties": {
+            "label": "Certification Documents",
+            "items": [
+              {
+                "documentType": "Certification",
+                "documentName": "DRA Certificate",
+                "documentURL": "https://www.example.com/dracertificate.pdf"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
