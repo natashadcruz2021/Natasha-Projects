@@ -1,0 +1,1244 @@
+[2022-12-02 10:25:12] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-02 10:25:12] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-02 10:25:15] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 0.006064414978027344
+[2022-12-02 10:25:15] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-02 11:05:33] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-02 11:05:34] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-02 11:05:43] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 4.628911733627319
+[2022-12-02 11:05:43] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-02 18:43:21] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-02 18:43:21] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-02 18:43:57] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 3.806196928024292
+[2022-12-02 18:43:57] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:94} ERROR - Process File Function: Job ID: 07d8edfc-5706-422c-8895-f04771da95c8 --> Error: 'DERIVED_VALID_EMAIL' -> Stack Trace: (<class 'KeyError'>, 'analytics.py', 73, KeyError('DERIVED_VALID_EMAIL'))
+[2022-12-02 18:44:02] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/07d8edfc-5706-422c-8895-f04771da95c8/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-02 18:45:36] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-02 18:45:36] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-02 18:46:25] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 3.7116074562072754
+[2022-12-02 18:46:25] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-05 10:26:15] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-05 10:26:15] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-05 13:59:18] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-05 13:59:18] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-05 13:59:28] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 4.798957109451294
+[2022-12-05 13:59:28] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-05 15:48:24] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-05 15:48:24] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-05 15:48:50] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 4.655812740325928
+[2022-12-05 15:48:50] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-06 11:01:59] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 11:01:59] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 11:02:09] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 4.828953504562378
+[2022-12-06 11:02:10] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-06 13:04:31] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 13:04:31] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 13:05:47] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 3.7665863037109375
+[2022-12-06 13:05:47] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:94} ERROR - Process File Function: Job ID: 550c6a53-989a-489c-a94b-ed36969b4a51 --> Error: 'DERIVED_VALID_EMAIL' -> Stack Trace: (<class 'KeyError'>, 'analytics.py', 73, KeyError('DERIVED_VALID_EMAIL'))
+[2022-12-06 13:07:03] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 13:07:03] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 13:07:14] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 3.8383235931396484
+[2022-12-06 13:07:15] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:94} ERROR - Process File Function: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'DERIVED_VALID_EMAIL' -> Stack Trace: (<class 'KeyError'>, 'analytics.py', 73, KeyError('DERIVED_VALID_EMAIL'))
+[2022-12-06 13:08:29] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 13:08:29] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 13:08:39] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 3.7643744945526123
+[2022-12-06 13:08:40] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:94} ERROR - Process File Function: Job ID: 5a229c3a-a4cb-48a2-9140-70640ea384c3 --> Error: 'DERIVED_VALID_EMAIL' -> Stack Trace: (<class 'KeyError'>, 'analytics.py', 73, KeyError('DERIVED_VALID_EMAIL'))
+[2022-12-06 13:22:02] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 13:22:02] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 13:22:02] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: c3f1757a-d138-4d65-9002-ec087874d5d3 --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 13:22:16] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 3.7201101779937744
+[2022-12-06 13:22:16] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:94} ERROR - Process File Function: Job ID: c3f1757a-d138-4d65-9002-ec087874d5d3 --> Error: 'DERIVED_VALID_EMAIL' -> Stack Trace: (<class 'KeyError'>, 'analytics.py', 73, KeyError('DERIVED_VALID_EMAIL'))
+[2022-12-06 15:42:49] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/2733bcb9-ff86-43e8-964d-5d6631fb1bab/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 15:42:55] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:43:22] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:43:38] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:43:49] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:43:52] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:44:02] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:44:31] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:44:35] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:44:49] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:44:58] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:50:26] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/2733bcb9-ff86-43e8-964d-5d6631fb1bab/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 15:50:28] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:50:53] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/2733bcb9-ff86-43e8-964d-5d6631fb1bab/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 15:50:58] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:51:49] {/home/admin/scripts/cip-backend/utils/classes/Summary.py:50} ERROR - Compute Job Summary: Job ID: 2733bcb9-ff86-43e8-964d-5d6631fb1bab --> Error: 'NoneType' object is not subscriptable
+[2022-12-06 15:51:53] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/2733bcb9-ff86-43e8-964d-5d6631fb1bab/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 15:51:58] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/2733bcb9-ff86-43e8-964d-5d6631fb1bab/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 15:52:01] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/5a229c3a-a4cb-48a2-9140-70640ea384c3/data [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 135, in apply_filters
+    result = action.all(skip=skip, limit=limit)
+  File "/home/admin/scripts/cip-backend/actions/Filters.py", line 36, in all
+    column_mapping = recipe[COL_MAPPING_COL]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 16:04:56] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 16:04:58] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 16:20:08] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 16:20:08] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 16:20:08] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/dataprep/95d8c976-7905-401b-9074-d4d50ae5569e/data/columns [GET]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/dataprep/__init__.py", line 209, in data_profile
+    result = summary.fetch_max_min_values_from_col(col_name=col_name, type=col_property)
+  File "/home/admin/scripts/cip-backend/utils/classes/Summary.py", line 61, in fetch_max_min_values_from_col
+    db_reversed_col_name = current_recipe[REV_COLUMN_MAPPING_COL][col_name]
+TypeError: 'NoneType' object is not subscriptable
+[2022-12-06 16:20:35] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 4.070298671722412
+[2022-12-06 16:20:35] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-06 16:22:01] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 16:22:03] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 18:07:09] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-06 18:07:09] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-06 18:07:33] {/home/admin/scripts/cip-backend/utils/functions/analytics.py:71} CRITICAL - End time: 4.681285858154297
+[2022-12-06 18:07:33] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-06 19:45:37] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 19:45:37] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 19:46:15] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-06 19:46:16] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-07 16:41:09] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-07 16:41:09] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-07 16:41:13] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-07 16:41:45] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-07 16:41:45] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-07 16:41:48] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-07 16:42:12] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-07 16:42:12] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-07 16:42:12] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-07 16:42:12] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-07 16:42:16] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 10:48:40] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 10:48:40] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 10:48:51] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 10:53:15] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 10:53:15] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 10:53:58] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:04:52] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:04:52] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:04:57] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:05:21] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:05:21] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:05:29] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:06:25] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:06:25] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:06:30] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:09:17] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:09:17] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:09:21] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:10:06] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:10:06] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:10:15] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:12:56] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:12:56] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:13:00] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:13:15] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:13:15] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:13:18] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:13:48] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/82051789-42aa-44a4-86df-b4cca8820dfb/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:14:24] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/82051789-42aa-44a4-86df-b4cca8820dfb/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'email', 'amount_due', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:21:56] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:21:56] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:22:00] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:22:09] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/111dfc17-b0d2-49a3-ab51-39112bd19820/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_product', 'due_date', 'email', 'flex_7', 'flex_11', 'sp_date', 'minimum_amount_due', 'sp_amount', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:22:34] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/111dfc17-b0d2-49a3-ab51-39112bd19820/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_product', 'due_date', 'email', 'flex_11', 'sp_date', 'minimum_amount_due', 'sp_amount', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:22:59] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/111dfc17-b0d2-49a3-ab51-39112bd19820/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_product', 'due_date', 'email', 'sp_date', 'minimum_amount_due', 'sp_amount', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:23:23] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/111dfc17-b0d2-49a3-ab51-39112bd19820/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_amount', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:23:46] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/111dfc17-b0d2-49a3-ab51-39112bd19820/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_amount', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:25:32] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/111dfc17-b0d2-49a3-ab51-39112bd19820/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_product', 'due_date', 'email', 'flex_7', 'flex_11', 'sp_date', 'minimum_amount_due', 'sp_amount', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:26:40] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:26:40] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:26:52] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:27:57] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:27:57] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:28:22] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:30:14] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:30:14] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:30:18] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:32:30] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:32:30] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:32:32] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:32:32] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:32:37] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:32:40] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:33:28] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:33:28] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:33:33] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:34:36] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:34:36] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:34:43] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:39:45] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:39:45] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:39:48] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:40:30] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/a852be07-7a0c-4f51-a68e-bf44ca3dfbfb/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'email', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:41:05] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/a852be07-7a0c-4f51-a68e-bf44ca3dfbfb/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'mobile_2', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:41:34] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/a852be07-7a0c-4f51-a68e-bf44ca3dfbfb/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:41:51] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:41:51] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:41:53] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:42:00] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:42:00] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:42:30] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/6f01588e-1004-4dac-871a-51b6c389d23b/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:42:43] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:43:03] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:43:03] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:43:07] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:43:08] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/faa77333-7661-4298-ac0c-f03f69dd488b/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'due_date', 'email', 'sp_date', 'minimum_amount_due', 'payment_link', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:43:15] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/faa77333-7661-4298-ac0c-f03f69dd488b/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'due_date', 'email', 'flex_7', 'flex_11', 'sp_date', 'minimum_amount_due', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:43:48] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:43:48] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:43:55] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:46:31] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:46:31] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:46:35] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:49:44] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:49:44] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:49:51] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:49:52] {/home/admin/scripts/cip-backend/utils/functions/helper.py:19} ERROR - Remove System Column Headers Function: -> Error: list.remove(x): x not in list
+[2022-12-08 11:50:38] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:50:38] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:50:42] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:52:41] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:52:41] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:52:43] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:53:24] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/9e0b6d48-fa1d-4644-98d0-f896092e6f0c/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 69, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 11:55:16] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 11:55:16] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 11:55:22] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 11:57:12] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/c3b72cf6-e270-460e-9c0a-c4fdc0a54fca/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'sp_account_number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 92, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 72, in process_engage_data
+    row['email'] = f'{row[ENGAGE_LOAN_ACC_COL]}@noemail.c'
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/series.py", line 942, in __getitem__
+    return self._get_value(key)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/series.py", line 1051, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'sp_account_number'
+[2022-12-08 12:00:33] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:00:34] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:00:37] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:01:13] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['sp_account_number', 'Title', 'firstname', 'Bucket Type',
+       'Product Type', 'Product Code (Loan/Card Type)', 'Cycle Day',
+       'Due Date', 'EMI Amt', 'Principle Outstanding Amt',
+       'Total Outstanding Amt', 'Minimum Amt Due', 'Risk Category', 'mobile_2',
+       'Email Address', 'email', 'Address State', 'Address City',
+       'Country Name', 'Overdue Charges', 'Branch Name', 'Zone / Region',
+       'Disbursement Date', 'Disbursement Amount', 'MOB', 'DPD',
+       'Delinquency string', 'flex_11', 'sp_date', 'Last Payment Amount',
+       'Total Payment', 'Address Zip Code', 'Employer Category',
+       'Employer Name', 'Occupation Type', 'Tenure', 'Repayment Mode',
+       'Loan Maturity Date', 'Credit Limit', 'Address',
+       'Auto Registration Number', 'Total Overdue Amt', 'Employment Type',
+       'Legal Stage', 'repeated_final_status', 'flex_9', 'BOUNCE_RATE',
+       'mobile', 'sales_order_no', 'customerid', 'job_id', 'is_published',
+       'points'],
+      dtype='object')
+[2022-12-08 12:01:13] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'flex_11', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:09:54] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:09:54] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:10:18] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:10:26] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:10:26] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:10:30] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:10:43] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['Account Number', 'Title', 'Customer Full Name', 'Bucket Type',
+       'Product Type', 'Product Code', 'Mobile Number', 'mobile_2',
+       'Phone Number 3', 'Phone Number 4', 'Guarantor Number', 'email',
+       'DERIVED_VALID_EMAIL', 'Principle Outstanding Amt',
+       'Total Outstanding Amt', 'Cycle Day', 'Due Date', 'EMI Amt',
+       'Minimum Amt Due', 'Risk Category', 'Address State', 'Address City',
+       'Country Name', 'Overdue Charges', 'Branch Name', 'Region',
+       'Disbursement Date', 'Disbursement Amount', 'MOB', 'DPD',
+       'Delinquency string', 'DOB', 'sp_date', 'Last Payment Amount',
+       'Total Payment', 'Address Zip Code', 'Employer Category',
+       'Employer Name', 'Occupation Type', 'Tenure', 'Repayment Mode',
+       'Loan Maturity Date', 'Credit Limit', 'Address',
+       'Auto Registration Number', 'Total Overdue Amt', 'Employment Type',
+       'Legal Stage', 'repeated_final_status', 'flex_9', 'BOUNCE_RATE',
+       'mobile', 'sales_order_no', 'customerid', 'job_id', 'is_published',
+       'points'],
+      dtype='object')
+[2022-12-08 12:10:43] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['mobile_2', 'email', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:10:43] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/c3b72cf6-e270-460e-9c0a-c4fdc0a54fca/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'sp_account_number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 94, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 74, in process_engage_data
+    row['email'] = f'{row[ENGAGE_LOAN_ACC_COL]}@noemail.c'
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/series.py", line 942, in __getitem__
+    return self._get_value(key)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/series.py", line 1051, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'sp_account_number'
+[2022-12-08 12:10:52] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:10:52] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['sp_account_number', 'firstname', 'email', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:10:52] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/c30ac2b0-367e-474c-a95e-2ddc7d417480/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 94, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 71, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'email', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:11:11] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['sp_account_number', 'Title', 'firstname', 'Bucket Type',
+       'Product Type', 'Product Code', 'Mobile Number', 'mobile_2',
+       'Phone Number 3', 'Phone Number 4', 'Guarantor Number', 'email',
+       'DERIVED_VALID_EMAIL', 'Cycle Day', 'Due Date', 'EMI Amt',
+       'Principle Outstanding Amt', 'Total Outstanding Amt', 'Minimum Amt Due',
+       'Risk Category', 'Address State', 'Address City', 'Country Name',
+       'Overdue Charges', 'Branch Name', 'Region', 'Disbursement Date',
+       'Disbursement Amount', 'MOB', 'DPD', 'Delinquency string', 'DOB',
+       'sp_date', 'Last Payment Amount', 'Total Payment', 'Address Zip Code',
+       'Employer Category', 'Employer Name', 'Occupation Type', 'Tenure',
+       'Repayment Mode', 'Loan Maturity Date', 'Credit Limit', 'Address',
+       'Auto Registration Number', 'Total Overdue Amt', 'Employment Type',
+       'Legal Stage', 'repeated_final_status', 'flex_9', 'BOUNCE_RATE',
+       'mobile', 'sales_order_no', 'customerid', 'job_id', 'is_published',
+       'points'],
+      dtype='object')
+[2022-12-08 12:11:11] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:11:26] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:11:26] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'flex_11', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:11:26] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/c30ac2b0-367e-474c-a95e-2ddc7d417480/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 94, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 71, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'flex_11', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:13:02] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:13:02] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:13:08] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:13:43] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:13:43] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:13:43] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/df353726-8c7d-460a-81b1-ea15d4d540bf/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 94, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 71, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:14:21] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:68} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:14:21] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:14:21] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/df353726-8c7d-460a-81b1-ea15d4d540bf/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 94, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 71, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:19:41] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:19:41] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:19:45] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:20:14] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:60} DEBUG - Before: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:20:14] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:62} DEBUG - After: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:20:14] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:69} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:20:14] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:71} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:20:14] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/650f7fde-ffca-4c4e-a47c-9f5244b1f556/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 95, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 72, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:23:20] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:23:20] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:23:33] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:24:05] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:60} DEBUG - Before: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:24:05] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:62} DEBUG - After: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:24:05] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:69} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:24:05] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:71} DEBUG - ['sp_account_number', 'firstname', 'sp_date', 'minimum_amount_due', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:24:05] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/be75989a-6154-484c-b571-6680b5c0eeb9/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 95, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 72, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_date', 'minimum_amount_due', 'payment_link', 'state', 'city', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:24:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:60} DEBUG - Before: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:24:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:62} DEBUG - After: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:24:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:69} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:24:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:71} DEBUG - ['sp_account_number', 'firstname', 'sp_date', 'minimum_amount_due', 'sp_amount', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:24:41] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/be75989a-6154-484c-b571-6680b5c0eeb9/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 95, in move_file_to_engage
+    recipe.finalize()
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 72, in process_engage_data
+    logging.debug(engage_columns)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_date', 'minimum_amount_due', 'sp_amount', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:25:06] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:49} DEBUG - Data: []
+[2022-12-08 12:25:06] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:51} DEBUG - DF:
+Empty DataFrame
+Columns: []
+Index: []
+[2022-12-08 12:25:06] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:61} DEBUG - Before: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:25:06] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:63} DEBUG - After: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:25:06] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:25:06] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:72} DEBUG - ['sp_account_number', 'firstname', 'sp_principal_outstanding', 'payment_link', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:25:06] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/be75989a-6154-484c-b571-6680b5c0eeb9/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 96, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 73, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_principal_outstanding', 'payment_link', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:25:13] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:25:13] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:25:17] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:25:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:49} DEBUG - Data: []
+[2022-12-08 12:25:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:51} DEBUG - DF:
+Empty DataFrame
+Columns: []
+Index: []
+[2022-12-08 12:25:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:61} DEBUG - Before: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:25:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:63} DEBUG - After: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:25:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:25:41] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:72} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'flex_11', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:25:41] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/2ccbcabb-d58f-4e98-9cf5-e15ec6328361/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 96, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 73, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'mobile_2', 'email', 'flex_11', 'sp_date', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:26:47] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:49} DEBUG - Data: []
+[2022-12-08 12:26:47] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:51} DEBUG - DF:
+Empty DataFrame
+Columns: []
+Index: []
+[2022-12-08 12:26:47] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:61} DEBUG - Before: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:26:47] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:63} DEBUG - After: Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:26:47] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:70} DEBUG - Index(['sales_order_no', 'customerid', 'job_id', 'is_published', 'points'], dtype='object')
+[2022-12-08 12:26:47] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:72} DEBUG - ['sp_account_number', 'firstname', 'sp_principal_outstanding', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:26:47] {/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py:1457} ERROR - Exception on /api/v1/transfer/be75989a-6154-484c-b571-6680b5c0eeb9/engage [POST]
+Traceback (most recent call last):
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/admin/scripts/cip-backend/api/v1/transfer/__init__.py", line 30, in engage
+    is_file_moved = move_file_to_engage(job_id=id, options=data)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 96, in move_file_to_engage
+    success, engage_mapping = process_engage_data(job_id, table_name=ENGAGE_TABLE_NAME, user_mapping=user_mapping)
+  File "/home/admin/scripts/cip-backend/utils/functions/transfer.py", line 73, in process_engage_data
+    df = df[engage_columns]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/frame.py", line 3464, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1)[1]
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "/home/admin/scripts/env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sp_account_number', 'firstname', 'sp_principal_outstanding', 'repeated_final_status', 'flex_9', 'mobile'] not in index"
+[2022-12-08 12:28:22] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:28:22] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:28:28] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:43} DEBUG - Current Job Ref ID: 72a1b2a4-9634-4e3c-ab7d-04c496fe7391
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:50} DEBUG - Data: [{'Account/Card Number': {'value': '90000000134997', 'is_valid': True}, 'Title': {'value': None, 'is_valid': False}, 'Customer Full Name': {'value': 'DUKHAN SAHU', 'is_valid': True}, 'Bucket Type': {'value': 'R180+', 'is_valid': True}, 'Product Type': {'value': 'CREDIT CARD', 'is_valid': True}, 'Product Code (Loan/Card Type)': {'value': 'Axis Bank Neo Card', 'is_valid': True}, 'Cycle Day': {'value': None, 'is_valid': False}, 'Due Date': {'value': None, 'is_valid': False}, 'EMI Amt': {'value': None, 'is_valid': False}, 'Principle Outstanding Amt': {'value': 13918.01, 'is_valid': True}, 'Total Outstanding Amt': {'value': 18902.68, 'is_valid': True}, 'Minimum Amt Due': {'value': None, 'is_valid': False}, 'Risk Category': {'value': 'V1', 'is_valid': True}, 'Mobile Number': {'value': '8308655222', 'is_valid': True}, 'Email Address': {'value': 'dukhansahu123564@gmail.com', 'is_valid': True}, 'DERIVED_VALID_EMAIL': {'value': 'dukhansahu123564@gmail.com', 'is_valid': True}, 'Address State': {'value': 'JHARKHAND', 'is_valid': True}, 'Address City': {'value': 'JAMSHEDPUR', 'is_valid': True}, 'Country Name': {'value': 'INDIA', 'is_valid': True}, 'Overdue Charges': {'value': None, 'is_valid': False}, 'Branch Name': {'value': None, 'is_valid': False}, 'Zone / Region': {'value': 'EAST', 'is_valid': True}, 'Disbursement Date': {'value': '2017-12-21 00:00:00', 'is_valid': True}, 'Disbursement Amount': {'value': None, 'is_valid': False}, 'MOB': {'value': None, 'is_valid': False}, 'DPD': {'value': 1338, 'is_valid': True}, 'Delinquency string': {'value': '44,43,42,41,40,39,38,37,36,35,34,33', 'is_valid': True}, 'DOB/Age': {'value': None, 'is_valid': False}, 'Last Payment Date': {'value': '2019-11-30 00:00:00', 'is_valid': True}, 'Last Payment Amount': {'value': 0.0, 'is_valid': True}, 'Total Payment': {'value': -18902.68, 'is_valid': True}, 'Address Zip Code': {'value': 831004, 'is_valid': True}, 'Employer Category': {'value': None, 'is_valid': False}, 'Employer Name': {'value': 'KINARA TRANSPORT', 'is_valid': True}, 'Occupation Type': {'value': None, 'is_valid': False}, 'Tenure': {'value': None, 'is_valid': False}, 'Repayment Mode': {'value': None, 'is_valid': False}, 'Loan Maturity Date': {'value': None, 'is_valid': False}, 'Credit Limit': {'value': 25000.0, 'is_valid': True}, 'Address': {'value': 'S/O JITARU SAHU, H NO 52, ZONE NO 5', 'is_valid': True}, 'Auto Registration Number': {'value': None, 'is_valid': False}, 'Total Overdue Amt': {'value': None, 'is_valid': False}, 'Employment Type': {'value': None, 'is_valid': False}, 'Legal Stage': {'value': None, 'is_valid': False}, 'FRESH_REPEAT_STATUS': {'value': 'Fresh', 'is_valid': True}, 'REPEAT_FREQUENCY': {'value': 0, 'is_valid': True}, 'BOUNCE_RATE': {'value': 0, 'is_valid': True}, 'is_valid': False, '_id': '9bc2dca0-2c54-4c30-84b4-b5ade264fca9', 'DERIVED_VALID_MOBILE': {'value': '8308655222', 'is_valid': True}}]
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:52} DEBUG - DF:
+  Account/Card Number Title  ... BOUNCE_RATE DERIVED_VALID_MOBILE
+0      90000000134997  None  ...           0           8308655222
+
+[1 rows x 48 columns]
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:62} DEBUG - Before: Index(['Account/Card Number', 'Title', 'Customer Full Name', 'Bucket Type',
+       'Product Type', 'Product Code (Loan/Card Type)', 'Cycle Day',
+       'Due Date', 'EMI Amt', 'Principle Outstanding Amt',
+       'Total Outstanding Amt', 'Minimum Amt Due', 'Risk Category',
+       'Mobile Number', 'Email Address', 'DERIVED_VALID_EMAIL',
+       'Address State', 'Address City', 'Country Name', 'Overdue Charges',
+       'Branch Name', 'Zone / Region', 'Disbursement Date',
+       'Disbursement Amount', 'MOB', 'DPD', 'Delinquency string', 'DOB/Age',
+       'Last Payment Date', 'Last Payment Amount', 'Total Payment',
+       'Address Zip Code', 'Employer Category', 'Employer Name',
+       'Occupation Type', 'Tenure', 'Repayment Mode', 'Loan Maturity Date',
+       'Credit Limit', 'Address', 'Auto Registration Number',
+       'Total Overdue Amt', 'Employment Type', 'Legal Stage',
+       'FRESH_REPEAT_STATUS', 'REPEAT_FREQUENCY', 'BOUNCE_RATE',
+       'DERIVED_VALID_MOBILE', 'sales_order_no', 'customerid', 'job_id',
+       'is_published', 'points'],
+      dtype='object')
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:64} DEBUG - After: Index(['sp_account_number', 'Title', 'firstname', 'Bucket Type',
+       'Product Type', 'Product Code (Loan/Card Type)', 'Cycle Day',
+       'Due Date', 'EMI Amt', 'Principle Outstanding Amt',
+       'Total Outstanding Amt', 'Minimum Amt Due', 'Risk Category', 'mobile_2',
+       'Email Address', 'email', 'Address State', 'Address City',
+       'Country Name', 'Overdue Charges', 'Branch Name', 'Zone / Region',
+       'Disbursement Date', 'Disbursement Amount', 'MOB', 'DPD',
+       'Delinquency string', 'DOB/Age', 'Last Payment Date',
+       'Last Payment Amount', 'Total Payment', 'Address Zip Code',
+       'Employer Category', 'Employer Name', 'Occupation Type', 'Tenure',
+       'Repayment Mode', 'Loan Maturity Date', 'Credit Limit', 'Address',
+       'Auto Registration Number', 'Total Overdue Amt', 'Employment Type',
+       'Legal Stage', 'repeated_final_status', 'flex_9', 'BOUNCE_RATE',
+       'mobile', 'sales_order_no', 'customerid', 'job_id', 'is_published',
+       'points'],
+      dtype='object')
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:71} DEBUG - Index(['sp_account_number', 'Title', 'firstname', 'Bucket Type',
+       'Product Type', 'Product Code (Loan/Card Type)', 'Cycle Day',
+       'Due Date', 'EMI Amt', 'Principle Outstanding Amt',
+       'Total Outstanding Amt', 'Minimum Amt Due', 'Risk Category', 'mobile_2',
+       'Email Address', 'email', 'Address State', 'Address City',
+       'Country Name', 'Overdue Charges', 'Branch Name', 'Zone / Region',
+       'Disbursement Date', 'Disbursement Amount', 'MOB', 'DPD',
+       'Delinquency string', 'DOB/Age', 'Last Payment Date',
+       'Last Payment Amount', 'Total Payment', 'Address Zip Code',
+       'Employer Category', 'Employer Name', 'Occupation Type', 'Tenure',
+       'Repayment Mode', 'Loan Maturity Date', 'Credit Limit', 'Address',
+       'Auto Registration Number', 'Total Overdue Amt', 'Employment Type',
+       'Legal Stage', 'repeated_final_status', 'flex_9', 'BOUNCE_RATE',
+       'mobile', 'sales_order_no', 'customerid', 'job_id', 'is_published',
+       'points'],
+      dtype='object')
+[2022-12-08 12:28:55] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:73} DEBUG - ['sp_account_number', 'firstname', 'mobile_2', 'email', 'repeated_final_status', 'flex_9', 'mobile', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
+[2022-12-08 12:31:29] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:227} DEBUG - Starting new HTTP connection (1): localhost:4006
+[2022-12-08 12:31:29] {/home/admin/scripts/env/lib/python3.9/site-packages/urllib3/connectionpool.py:452} DEBUG - http://localhost:4006 "POST /api/customer/details/genrateBatch HTTP/1.1" 200 None
+[2022-12-08 12:31:36] {/home/admin/scripts/cip-backend/schemas/MongoDB.py:148} ERROR - MongoDB Error -> Update One Method: 'NoneType' object is not a mapping
+[2022-12-08 12:31:52] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:43} DEBUG - Current Job Ref ID: 6e506195-c079-418e-b26d-65377db1d6f9
+[2022-12-08 14:37:58] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:52} DEBUG - DF:
+                   Loan No  ... EMI/Min Due Amount_range
+0      BL00012020120120678  ...                501-38600
+1      BL00012021030126613  ...                501-38600
+2      BL00022021030126620  ...                501-38600
+3      BL00022021030129011  ...                501-38600
+4      BL00032020110118809  ...                501-38600
+...                    ...  ...                      ...
+3566  UTW00652022060168810  ...                501-38600
+3567  UTW00932022060168736  ...                501-38600
+3568  UTW00932022070170169  ...                501-38600
+3569  UTW01052022060166192  ...                501-38600
+3570  UTW01052022060168345  ...                501-38600
+
+[3571 rows x 39 columns]
+[2022-12-08 14:37:58] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:62} DEBUG - Before: Index(['Loan No', 'Name of the Customer', 'Product Type', 'Final Product',
+       'Due Date', 'Cycle', 'Phone Number 1', 'Email Address',
+       'DERIVED_VALID_EMAIL', 'Residential Address', 'Gender', 'DOB/Age',
+       'Nationality', 'Mandate / Non-Mandate', 'Last Payment Date',
+       'Last Payment Amount', 'Payment Mode of Last Payment',
+       'Disbursed Amount', 'Disbursed Date', 'EMI/Min Due Amount',
+       'Loan Tenure', 'Total Outstanding (POS and TOS)', 'Total Dues',
+       'Bucket Type', 'Delinquency String', 'Employer Name', 'DPD',
+       'Designation', 'Sourcing Channel',
+       'Employment Category (Salaried/Self Employed)', 'Payment Link', 'State',
+       'City', 'Risk Tagging', 'FRESH_REPEAT_STATUS', 'REPEAT_FREQUENCY',
+       'BOUNCE_RATE', 'DERIVED_VALID_MOBILE', 'EMI/Min Due Amount_range',
+       'sales_order_no', 'customerid', 'job_id', 'is_published', 'points'],
+      dtype='object')
+[2022-12-08 14:37:58] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:64} DEBUG - After: Index(['sp_account_number', 'firstname', 'Product Type', 'Final Product',
+       'Due Date', 'due_date', 'Phone Number 1', 'email',
+       'DERIVED_VALID_EMAIL', 'Residential Address', 'flex_7', 'flex_11',
+       'Nationality', 'Mandate / Non-Mandate', 'sp_date',
+       'Last Payment Amount', 'Payment Mode of Last Payment',
+       'Disbursed Amount', 'Disbursed Date', 'minimum_amount_due',
+       'Loan Tenure', 'Total Outstanding (POS and TOS)', 'Total Dues',
+       'Bucket Type', 'Delinquency String', 'Employer Name', 'DPD',
+       'Designation', 'Sourcing Channel',
+       'Employment Category (Salaried/Self Employed)', 'payment_link', 'state',
+       'city', 'Risk Tagging', 'repeated_final_status', 'flex_9',
+       'BOUNCE_RATE', 'mobile', 'flex_1', 'sales_order_no', 'customerid',
+       'job_id', 'is_published', 'points'],
+      dtype='object')
+[2022-12-08 14:37:58] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:71} DEBUG - Index(['sp_account_number', 'firstname', 'Product Type', 'Final Product',
+       'Due Date', 'due_date', 'Phone Number 1', 'email',
+       'DERIVED_VALID_EMAIL', 'Residential Address', 'flex_7', 'flex_11',
+       'Nationality', 'Mandate / Non-Mandate', 'sp_date',
+       'Last Payment Amount', 'Payment Mode of Last Payment',
+       'Disbursed Amount', 'Disbursed Date', 'minimum_amount_due',
+       'Loan Tenure', 'Total Outstanding (POS and TOS)', 'Total Dues',
+       'Bucket Type', 'Delinquency String', 'Employer Name', 'DPD',
+       'Designation', 'Sourcing Channel',
+       'Employment Category (Salaried/Self Employed)', 'payment_link', 'state',
+       'city', 'Risk Tagging', 'repeated_final_status', 'flex_9',
+       'BOUNCE_RATE', 'mobile', 'flex_1', 'sales_order_no', 'customerid',
+       'job_id', 'is_published', 'points'],
+      dtype='object')
+[2022-12-08 14:37:58] {/home/admin/scripts/cip-backend/utils/functions/transfer.py:73} DEBUG - ['city', 'due_date', 'mobile', 'flex_11', 'minimum_amount_due', 'email', 'flex_7', 'sp_date', 'sp_account_number', 'firstname', 'payment_link', 'state', 'repeated_final_status', 'flex_9', 'flex_1', 'job_id', 'customerid', 'sales_order_no', 'is_published', 'points']
