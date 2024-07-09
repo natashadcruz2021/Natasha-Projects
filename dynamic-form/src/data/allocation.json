@@ -1,0 +1,478 @@
+[
+  {
+    "id": "11243134",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXXXX301"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Pay Later", "assetClass": "Pay Later" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 32213.14,
+        "dueDate": "0021-05-20T00:00:00.000+05:30",
+        "riskCategory": "Medium",
+        "principalOutstanding": 1157839.88,
+        "region": "SOUTH",
+        "state": "DELHI NCR",
+        "city": "UMARIA",
+        "delinquency": "Postdue",
+        "totalOutstanding": 1290053.0199999998
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "James Smith" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 32213.14,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243134",
+    "spoctoId": "17e3b5d7-5460-3c17-abdb-2411508e68a0",
+    "status": "success",
+    "currentIndex": 1,
+    "totalCount": 10
+  },
+  {
+    "id": "11243135",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXX56870"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Home Loan", "assetClass": "Home Loan" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 19685.47,
+        "dueDate": "0029-05-20T00:00:00.000+05:30",
+        "riskCategory": "Medium",
+        "principalOutstanding": 774509.88,
+        "region": "EAST",
+        "state": "TELANGANA",
+        "city": "CHANDRAPUR",
+        "delinquency": "Predue",
+        "totalOutstanding": 894195.35
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "Mary Johnson" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 19685.47,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243135",
+    "spoctoId": "e2d2db79-2a03-30e6-aab4-f2caa70c7523",
+    "status": "success",
+    "currentIndex": 2,
+    "totalCount": 10
+  },
+  {
+    "id": "11243137",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXX02031"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Home Loan", "assetClass": "Home Loan" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 28775.64,
+        "dueDate": "0008-05-20T00:00:00.000+05:30",
+        "riskCategory": "High",
+        "principalOutstanding": 4448127.5,
+        "region": "WEST",
+        "state": "ANDHRA PRADESH",
+        "city": "DELHI",
+        "delinquency": "Predue",
+        "totalOutstanding": 4576903.14
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "Patricia Brown" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 28775.64,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243137",
+    "spoctoId": "3180946c-cb11-3ec2-943a-9b1defa80b2d",
+    "status": "success",
+    "currentIndex": 4,
+    "totalCount": 10
+  },
+  {
+    "id": "11243136",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXX12126"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Pay Later", "assetClass": "Pay Later" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 32454.86,
+        "dueDate": "0027-05-20T00:00:00.000+05:30",
+        "riskCategory": "High",
+        "principalOutstanding": 531750.81,
+        "region": "NORTH",
+        "state": "ROMG",
+        "city": "PUNE",
+        "delinquency": "Postdue",
+        "totalOutstanding": 664205.67
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "John Williams" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 32454.86,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243136",
+    "spoctoId": "063a8490-cd4f-3568-b778-9a2fdb7d90de",
+    "status": "success",
+    "currentIndex": 3,
+    "totalCount": 10
+  },
+  {
+    "id": "11243139",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXXX2383"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Pay Later", "assetClass": "Pay Later" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 38041.94,
+        "dueDate": "0004-06-20T00:00:00.000+05:30",
+        "riskCategory": "High",
+        "principalOutstanding": 3509662.5,
+        "region": "EAST",
+        "state": "DELHI NCR",
+        "city": "VIZAG",
+        "delinquency": "Postdue",
+        "totalOutstanding": 3647704.44
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": {
+            "individual": { "fullName": "Jennifer Garcia" }
+          },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 38041.94,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243139",
+    "spoctoId": "ff59c380-1d43-31b1-a1bf-05c4add7121b",
+    "status": "success",
+    "currentIndex": 6,
+    "totalCount": 10
+  },
+  {
+    "id": "11243138",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXX57445"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Auto Loan", "assetClass": "Auto Loan" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 34304.7,
+        "dueDate": "0014-05-20T00:00:00.000+05:30",
+        "riskCategory": "Medium",
+        "principalOutstanding": 1134114.5,
+        "region": "WEST",
+        "state": "ROMG",
+        "city": "PUNE",
+        "delinquency": "Predue",
+        "totalOutstanding": 1268419.2
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "Robert Jones" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 34304.7,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243138",
+    "spoctoId": "21783849-b8f8-3588-93e7-4c79d0764310",
+    "status": "success",
+    "currentIndex": 5,
+    "totalCount": 10
+  },
+  {
+    "id": "11243142",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXX16651"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Home Loan", "assetClass": "Home Loan" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 34385.75,
+        "dueDate": "0006-06-20T00:00:00.000+05:30",
+        "riskCategory": "Medium",
+        "principalOutstanding": 3973955.0,
+        "region": "NORTH",
+        "state": "TELANGANA",
+        "city": "HYDERABAD",
+        "delinquency": "Predue",
+        "totalOutstanding": 4108340.75
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": {
+            "individual": { "fullName": "William Rodriguez" }
+          },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 34385.75,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243142",
+    "spoctoId": "47b8e5f2-5d4e-3efc-b85b-f885310ae5a2",
+    "status": "success",
+    "currentIndex": 9,
+    "totalCount": 10
+  },
+  {
+    "id": "11243140",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXX65047"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Pay Later", "assetClass": "Pay Later" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 20257.72,
+        "dueDate": "0017-05-20T00:00:00.000+05:30",
+        "riskCategory": "Medium",
+        "principalOutstanding": 3452128.75,
+        "region": "EAST",
+        "state": "TELANGANA",
+        "city": "PUNE",
+        "delinquency": "Postdue",
+        "totalOutstanding": 3572386.47
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "Michael Miller" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 20257.72,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243140",
+    "spoctoId": "fc70e32b-4b45-3fd3-8be4-1c0c6f1fb1d6",
+    "status": "success",
+    "currentIndex": 7,
+    "totalCount": 10
+  },
+  {
+    "id": "11243141",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXXXX80421"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Auto Loan", "assetClass": "Auto Loan" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 12126.63,
+        "dueDate": "0005-06-20T00:00:00.000+05:30",
+        "riskCategory": "Medium",
+        "principalOutstanding": 3986370.25,
+        "region": "SOUTH",
+        "state": "ANDHRA PRADESH",
+        "city": "UMARIA",
+        "delinquency": "Predue",
+        "totalOutstanding": 4098496.88
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": { "individual": { "fullName": "Linda Davis" } },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 12126.63,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243141",
+    "spoctoId": "38bfc485-dfda-3a86-9258-af8474783f84",
+    "status": "success",
+    "currentIndex": 8,
+    "totalCount": 10
+  },
+  {
+    "id": "11243143",
+    "metadata": {
+      "clientId": "65c600d21766cc0045b2ba6d",
+      "accountNumber": "XXXXX669164"
+    },
+    "loanDetails": {
+      "loanInfo": { "productName": "Auto Loan", "assetClass": "Auto Loan" },
+      "loanTerms": { "paymentLink": null },
+      "collectionInfo": {
+        "collectableAmount": 35875.79,
+        "dueDate": "0007-05-20T00:00:00.000+05:30",
+        "riskCategory": "High",
+        "principalOutstanding": 2768724.75,
+        "region": "WEST",
+        "state": "ANDHRA PRADESH",
+        "city": "HYDERABAD",
+        "delinquency": "Predue",
+        "totalOutstanding": 2904600.54
+      },
+      "customer": {
+        "borrower": {
+          "customerDetails": {
+            "individual": { "fullName": "Elizabeth Martinez" }
+          },
+          "phoneNumber": {
+            "permanentNumber": [
+              { "phoneNumber": "XXXXXX5406" },
+              { "phoneNumber": "XXXXXX5406" }
+            ]
+          },
+          "emails": { "personal": [{ "emailId": null }] },
+          "address": { "permanentAddress": [{ "fullAddress": null }] }
+        }
+      }
+    },
+    "auxiliary": {
+      "isUnsubscribed": false,
+      "validMobileNumber": "XXXXXX5406",
+      "collectableAmount": 35875.79,
+      "paidAmount": 0.0
+    },
+    "internalRequestId": "22644",
+    "loanId": "11243143",
+    "spoctoId": "19cfb9b7-46ed-3aea-87f9-9b3baaad5f8c",
+    "status": "success",
+    "currentIndex": 10,
+    "totalCount": 10
+  }
+]

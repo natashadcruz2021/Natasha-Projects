@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import SideMenu from "./components/SideMenu";
 import styled from "styled-components";
 import { Col, Row } from "antd";
+import Allocation from "./pages/Allocation";
 
 const Container = styled.div`
   margin-top: 10px;
@@ -37,6 +38,7 @@ const App = () => {
               <Route exact path="/" element={<Home />} />
               <Route path="/agency-onboarding" element={<AgencyForm />} />
               <Route path="/agent-onboarding" element={<AgentForm />} />
+              <Route path="/allocation" element={<Allocation />} />
               {/* <Route path="/compliance" component={Compliance} /> */}
             </Routes>
           </MainContainer>
